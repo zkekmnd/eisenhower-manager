@@ -48,7 +48,7 @@ public class TaskManager{
         if(task == null) return;
 
         task.setPriority(newPriority);
-        IO.println(TASK_NUMBER + id + " has been updated to [" + task.getPriority().getLabel());
+        IO.println(TASK_NUMBER + id + " has been updated to [" + task.getPriority().getLabel() + "]");
     }
 
     public void deleteTask(int id){
